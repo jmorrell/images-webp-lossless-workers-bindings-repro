@@ -9,7 +9,10 @@
 	"compatibility_date": "2025-07-22",
 	"observability": {
 		"enabled": true
-	}
+	},
+	"images": {
+    "binding": "IMAGES" // i.e. available in your Worker on env.IMAGES
+  }
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
